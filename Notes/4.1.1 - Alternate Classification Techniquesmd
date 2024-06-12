@@ -1,0 +1,45 @@
+# Alternate Classification Techniques
+
+## Rule-based Classifier
+
+- Classify records by using a collection of "if then" rules
+- Rule: (Condition) -> y
+  - Where:
+    - Condition is a conjunctions of attributes
+    - y is the class label
+  - LHS is the antecedent or condition
+  - RHS is the role consequence
+  - Example:
+    - ![ex](img/4/rulebasedex.png)
+- The Rule r covers an instance x if the attributes of the instance satisfy the condition of the rule
+  - ![covering](img/4/rulecoverex.png)
+- Coverage of a rule
+  - Fraction of records that satisfy the antecedent of a rule
+- Accuracy of rule
+  - Fraction of records that satisfy both the antecedent and consequent of a rule
+- Coverage and accuracy example:
+  - ![ex](img/4/covaccex.png) 
+- Mutually exclusive rule
+  - Classifier  contains mutually exclusive rules if the rules are independant of eachother
+  - Every record is covered by at most one rule
+- Exhaustive rules
+  - Classifier has exhaustive coverate if it accounts for every possible combination of attribute values
+  - Each records is covered by at least one rule
+
+### How to get rules from a decision tree
+
+- ![ex](img/4/ruledecision.png)
+  - Rules can be simplified
+    - Simply say (Status=Married) -> No
+    - This makes rules no longer mutually exclusive
+      - A record may trigger more than one rule
+    - Solution:
+      - Ordered Rule set
+      - Unordered rule set - use voting schemes
+    - Rules are no longer exhaustive
+      - A record may not trigger any rules
+      - Solution would be to use a default class
+
+
+##
+##
