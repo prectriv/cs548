@@ -40,6 +40,15 @@
       - A record may not trigger any rules
       - Solution would be to use a default class
 
+### Ordered rule sets
+
+- Rules are ranked according to their proiroty
+- When a test record is presented to the classifier:
+  - It is assignened to a class label of the highest ranked rule it has triggered
+  - If none are fired, it is asigned to a default class
+- ![ex](img/4/orderedruleset.png)
+  - Turtle labeled reptile cause r4 > r5
+
 
 ##
 ##
