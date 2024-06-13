@@ -48,7 +48,16 @@
   - If none are fired, it is asigned to a default class
 - ![ex](img/4/orderedruleset.png)
   - Turtle labeled reptile cause r4 > r5
+- Rule-based ordering
+  - Priority based on some sort of quality
+  - ![ex](img/4/ruleord.png)
+- Class-based ordering
+  - Rules tha tbleong to the same class appear together
+  - ![ex](img/4/classord.png)
 
+### How to build:
 
-##
-##
+- Direct method:
+  - Extract rules directly from the data
+- Indirect method:
+  - Build the rule based system directly from a different classification model (neural nets, decision trees, etc.)
