@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
-        "Binarization"
+        "Apriori",
+        "Binarization",
+        "itemset",
+        "itemsets",
+        "minconf",
+        "minsup"
     ]
 }
