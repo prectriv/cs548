@@ -5,6 +5,7 @@
         "dendogram",
         "itemset",
         "itemsets",
+        "medoid",
         "minconf",
         "minsup",
         "Partitional"
