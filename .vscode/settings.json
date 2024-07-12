@@ -5,6 +5,7 @@
         "itemset",
         "itemsets",
         "minconf",
-        "minsup"
+        "minsup",
+        "Partitional"
     ]
 }
